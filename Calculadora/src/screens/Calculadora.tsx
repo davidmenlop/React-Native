@@ -1,8 +1,7 @@
-import React, {useRef} from 'react';
+import React from 'react';
 import {View, Text} from 'react-native';
 import {Boton} from '../components/Boton';
 import {styles} from '../theme/appTheme';
-import {useState} from 'react';
 import {useCalculadora} from '../Hooks/useCalculadora';
 
 export const Calculadora = () => {
